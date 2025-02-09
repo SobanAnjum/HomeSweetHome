@@ -23,7 +23,13 @@ li{
     font-style: normal;
     font-size: 1.08 rem;
     color: white;
+    transition: all 0.1s ease-in-out;
 
+}
+li:hover{
+    color: #ffba00;
+    font-size: 1.2 rem;
+    cursor: pointer;
 }
 .button{
     padding: 12px;
