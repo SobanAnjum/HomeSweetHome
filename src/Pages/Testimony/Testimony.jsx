@@ -130,7 +130,6 @@ const Testimony = () => {
           <div className="vidSubtext">
             <p>During our span of work in UAE for 10+ years we've done countless projects in the country and every customer for organization is a satisfied customer. The numbers and reviews speak for themselves. </p>
           </div>
-
           </div>
         </div>
     </div>
