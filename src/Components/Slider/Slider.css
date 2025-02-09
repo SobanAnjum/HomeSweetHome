@@ -1,0 +1,143 @@
+/* Slider Container */
+.SliderContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 60vh;
+    position: relative;
+}
+
+/* Images Container */
+.imagesContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+/* Styling for the images */
+.imagesContainer img {
+    width: 10vw;
+    border-radius: 5px;
+    margin: 0px 20px;
+    border: rgb(156, 156, 156) 3px solid;
+    transform: rotate(10deg);
+    transition: all ease-in-out 0.3s;
+}
+
+/* Title Styling */
+.title {
+    color: white;
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    margin-top: 20px;
+    opacity: 0;
+    display: none;
+    margin-left: 20px;
+    text-align: center;
+    transition: all linear 0.6s;
+    font-size: 2vw;
+}
+
+/* Active Image Styling */
+.activeImage img {
+    width: 13vw;
+    transform: rotate(0deg);
+}
+
+/* Active Title Styling */
+.activeImage .title {
+    opacity: 1;
+    text-align: center;
+    display: block;
+}
+
+/* Arrow Styling */
+.arrow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: white;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 50%;
+    z-index: 10;
+    cursor: pointer;
+}
+
+.arrowLeft {
+    left: 5%;
+}
+
+.arrowRight {
+    right: 5%;
+}
+
+/* Media Queries for Responsiveness */
+
+/* For mobile devices */
+@media (max-width: 767px) {
+    .SliderContainer {
+        height: 50vh; /* Reduce height on mobile */
+    }
+
+    .imagesContainer img {
+        width: 25vw; /* Increase image size */
+        margin: 0px 10px; /* Adjust spacing */
+    }
+
+    .title {
+        font-size: 4vw; /* Adjust title size */
+    }
+
+    .arrow {
+        width: 40px;
+        height: 40px;
+    }
+}
+
+/* For tablet devices (768px - 1024px) */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .SliderContainer {
+        height: 55vh; /* Slightly reduce height */
+    }
+
+    .imagesContainer img {
+        width: 15vw; /* Adjust image size for tablets */
+    }
+
+    .title {
+        font-size: 3.5vw; /* Adjust title size */
+    }
+
+    .arrow {
+        width: 45px;
+        height: 45px;
+    }
+}
+
+/* For larger screens (desktops and above) */
+@media (min-width: 1025px) {
+    .SliderContainer {
+        height: 60vh; /* Maintain original height on large screens */
+    }
+
+    .imagesContainer img {
+        width: 10vw; /* Image size suitable for larger screens */
+    }
+
+    .title {
+        font-size: 2vw; /* Maintain larger font size */
+    }
+
+    .arrow {
+        width: 50px;
+        height: 50px;
+    }
+}

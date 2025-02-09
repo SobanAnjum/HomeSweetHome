@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+}
+.homebody{
+    position:relative;
+    height: 100vh;
+    width: 100vw;
+}
+
+.background {
+    position: absolute;
+    top: 0;
+    z-index: -6;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(75, 143, 92);
+    overflow: hidden; /* Prevents any image overflow */
+}
+
+.background img {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: relative; /* Ensures proper positioning inside .background */
+    top: 0;
+    left: 0;
+}
+
+.mainText{
+    position: relative;
+    top: 150px;
+    left: 80px;
+    width:60vw ;
+    color: #ffba00;
+    font-family: "Roboto Condensed", serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 15vw;
+}
+.subText{
+    position: relative;
+    top: 150px;
+    left: 80px;
+    width:50vw ;
+    color: #ffffff;
+    font-family: "Roboto Condensed", serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 8.2vw;
+}
+.cover{
+    z-index: -4;
+    position: absolute;
+    top: 0;
+    left: 9;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.466);
+}
+span{
+    transition: all 0.1s ease-in-out;
+}
+.heroLogo{
+    width: 30vw;
+    position: absolute;
+    right: 60px;
+    bottom: 30vh;
+}
+
+@media screen and (max-width:1000px) {
+    .mainText{
+        position: absolute;
+        top: 300px;
+        left: 60px;
+        font-size:22vw;
+
+
+    }
+    .subText{
+        position: absolute;
+        top: 500px;
+        left: 60px;
+        width:80vw ;
+        font-size: 13vw;
+
+    }
+    .heroLogo{
+display: none;
+    }
+    
+    
+}
