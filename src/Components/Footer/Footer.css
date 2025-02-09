@@ -78,3 +78,37 @@
     }
 
 }
+@media screen and (max-width:850px){
+    .logo img{
+        width: 20vw;
+    }
+
+}
+@media screen and (max-width:700px){
+    .logo img{
+        width: 15vw;
+    }
+    .tabSec h2{
+        font-family: "Montserrat", serif;
+        font-optical-sizing: auto;
+        font-weight: 300;
+        font-style: normal;
+        font-size: 1rem;
+    }
+
+
+}
+@media screen and (max-width:500px){
+    .logo img{
+        display: none;
+    }
+    .tabSec h2{
+        font-family: "Montserrat", serif;
+        font-optical-sizing: auto;
+        font-weight: 300;
+        font-style: normal;
+        font-size: 0.7rem;
+    }
+
+
+}
