@@ -88,7 +88,7 @@ const Testimony = () => {
         <h1 className='TestimonyText'>WHY <span>CHOOSE </span> US</h1>
         <div className='manyServices tab'>
           <div className="video servicesVideo">
-            <video className='tabVid' src='/src/assets/videos/Services.mp4' autoPlay muted loop ></video>
+            <video className='tabVid' src='/videos/Services.mp4' autoPlay muted loop ></video>
           </div>
           <div className="vidText servicesVidText">
           <div className="vidHead">
@@ -112,13 +112,13 @@ const Testimony = () => {
 
           </div>
         <div className="video experienceText">
-            <video className='tabVid' src='/src/assets/videos/Experience.mp4' autoPlay muted loop ></video>
+            <video className='tabVid' src='/videos/Experience.mp4' autoPlay muted loop ></video>
           </div>
           
         </div>
         <div className='customers tab '>
         <div className="video">
-            <video className='tabVid customersVid' src='/src/assets/videos/Satisfied.mp4' autoPlay muted loop ></video>
+            <video className='tabVid customersVid' src='/videos/Satisfied.mp4' autoPlay muted loop ></video>
           </div>
           <div className="vidText customersVidText">
           <div className="vidHead">

@@ -9,7 +9,7 @@ return (
 <div className="footerBody">
         <div className="footerSections">
     <div className="logo">
-        <img src="/src/assets/images/logo.png.png" alt="" />
+        <img src="/images/logo.png.png" alt="" />
     </div>
     <div className="linkSection tabSec">
 <h2>Useful Links</h2>

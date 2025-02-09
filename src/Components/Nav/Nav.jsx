@@ -24,7 +24,7 @@ return (
     <>
     <div className="nav">
     <Dropdown/>
-    <img src="/src/assets/images/logo.png.png" alt="logo" />
+    <img src="/public/images/logo.png.png" alt="logo" />
     <ul>
         <li>Home</li>
         <li>Our Services</li>

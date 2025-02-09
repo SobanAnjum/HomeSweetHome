@@ -23,12 +23,12 @@ const Slider = () => {
 
     // Images for Slider
     const images = [
-        { src: "/src/assets/images/AC.jpg", name: "AC Repair" },
-        { src: "/src/assets/images/Cleaner.jpg", name: "Cleaner" },
-        { src: "/src/assets/images/Electric.jpg", name: "Electrician" },
-        { src: "/src/assets/images/Painter.jpg", name: "Painter" },
-        { src: "/src/assets/images/Plumber.jpg", name: "Plumber" },
-        { src: "/src/assets/images/Renovation.jpg", name: "Renovations" },
+        { src: "/images/AC.jpg", name: "AC Repair" },
+        { src: "/images/Cleaner.jpg", name: "Cleaner" },
+        { src: "/images/Electric.jpg", name: "Electrician" },
+        { src: "/images/Painter.jpg", name: "Painter" },
+        { src: "/images/Plumber.jpg", name: "Plumber" },
+        { src: "/images/Renovation.jpg", name: "Renovations" },
     ]
 
     const [activeImage, setActiveImage] = useState(0)
