@@ -64,8 +64,8 @@ const Testimony = () => {
           opacity:0,
           scrollTrigger:{
             trigger:'.customers',
-            start:'center 100%',
-            end:' top 200%',
+            start:'top 100%',
+            end:' top 100%',
             scrub: 1,
           }
 
@@ -75,9 +75,10 @@ const Testimony = () => {
           opacity:0,
           scrollTrigger:{
             trigger:'.customers',
-            start:'center 100%',
-            end:' bottom 200%',
+            start:'top 100%',
+            end:' center 100%',
             scrub: 1,
+            markers:true
 
             
           }
