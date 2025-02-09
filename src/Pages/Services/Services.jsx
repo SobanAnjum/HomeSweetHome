@@ -31,7 +31,8 @@ const Services = () => {
             ease:'expo.out',
             scrollTrigger:{
                 trigger:'.Sbody',
-                start: 'top 20% ',
+                start: 'top 50% ',
+                scrub:true,
             }
         })
         gsap.from('.servicesText2',{
@@ -42,7 +43,9 @@ const Services = () => {
             scale:0.4,
             scrollTrigger:{
                 trigger:'.Sbody',
-                start: 'top 20% ',
+                start: 'top 50% ',
+                scrub:true,
+               // toggleActions: 'restart none none none'
             }
         })
 

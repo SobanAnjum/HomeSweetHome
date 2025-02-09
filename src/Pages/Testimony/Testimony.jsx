@@ -16,6 +16,7 @@ const Testimony = () => {
             trigger:'.manyServices',
             start:'center 100%',
             end:' top 200%',
+            scrub: 1,
 
             
           }
@@ -28,6 +29,7 @@ const Testimony = () => {
             trigger:'.manyServices',
             start:'center 100%',
             end:' bottom 200%',
+            scrub: 1,
 
             
           }
@@ -41,7 +43,7 @@ const Testimony = () => {
             trigger:'.experience',
             start:'center 100%',
             end:' top 200%',
-
+            scrub: 1,
           }
 
         })
@@ -52,7 +54,7 @@ const Testimony = () => {
             trigger:'.experience',
             start:'center 100%',
             end:' bottom 200%',
-            
+            scrub: 1,
           }
 
         })
@@ -64,7 +66,7 @@ const Testimony = () => {
             trigger:'.customers',
             start:'center 100%',
             end:' top 200%',
-            
+            scrub: 1,
           }
 
         })
@@ -75,6 +77,7 @@ const Testimony = () => {
             trigger:'.customers',
             start:'center 100%',
             end:' bottom 200%',
+            scrub: 1,
 
             
           }
