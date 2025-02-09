@@ -23,12 +23,12 @@ const Slider = () => {
 
     // Images for Slider
     const images = [
-        { src: "/images/AC.jpg", name: "AC Repair" },
-        { src: "/images/Cleaner.jpg", name: "Cleaner" },
-        { src: "/images/Electric.jpg", name: "Electrician" },
-        { src: "/images/Painter.jpg", name: "Painter" },
-        { src: "/images/Plumber.jpg", name: "Plumber" },
-        { src: "/images/Renovation.jpg", name: "Renovations" },
+        { src: "https://res.cloudinary.com/dtxg4xh9o/image/upload/v1739116829/AC_gbuwrg.jpg", name: "AC Repair" },
+        { src: "https://res.cloudinary.com/dtxg4xh9o/image/upload/v1739116829/Cleaner_ajtu7g.jpg", name: "Cleaner" },
+        { src: "https://res.cloudinary.com/dtxg4xh9o/image/upload/v1739116829/Electric_qzegoc.jpg", name: "Electrician" },
+        { src: "https://res.cloudinary.com/dtxg4xh9o/image/upload/v1739116830/Painter_y2atlw.jpg", name: "Painter" },
+        { src: "https://res.cloudinary.com/dtxg4xh9o/image/upload/v1739116830/Plumber_wd6dmz.jpg", name: "Plumber" },
+        { src: "https://res.cloudinary.com/dtxg4xh9o/image/upload/v1739116829/Renovation_pgp4jo.jpg", name: "Renovations" },
     ]
 
     const [activeImage, setActiveImage] = useState(0)

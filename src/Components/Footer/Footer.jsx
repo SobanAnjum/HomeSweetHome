@@ -9,7 +9,7 @@ return (
 <div className="footerBody">
         <div className="footerSections">
     <div className="logo">
-        <img src="/images/logo.png.png" alt="" />
+        <img src="https://res.cloudinary.com/dtxg4xh9o/image/upload/v1739116829/logo.png_ajzrgx.png" alt="" />
     </div>
     <div className="linkSection tabSec">
 <h2>Useful Links</h2>

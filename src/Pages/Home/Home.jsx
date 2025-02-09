@@ -53,11 +53,11 @@ const Home = () => {
       <Nav />
       <div className="cover"></div>
       <div className="background">
-        <img className="img" src="/images/background.jpg" alt="Background" />
+        <img className="img" src="https://res.cloudinary.com/dtxg4xh9o/image/upload/v1739116830/background_h09zwy.jpg" alt="Background" />
       </div>
       <h1 className="mainText"> <span>A</span><span>L</span><span>W</span><span>A</span><span>Y</span><span>S</span></h1>
       <h1 className="subText">Ready to Serve</h1>
-      <img src="/images/logo.png.png" alt="" className="heroLogo" />
+      <img src="https://res.cloudinary.com/dtxg4xh9o/image/upload/v1739116829/logo.png_ajzrgx.png" alt="" className="heroLogo" />
     </div>
     </>
   );

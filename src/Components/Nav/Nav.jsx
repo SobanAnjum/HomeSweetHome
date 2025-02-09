@@ -24,7 +24,7 @@ return (
     <>
     <div className="nav">
     <Dropdown/>
-    <img src="/public/images/logo.png.png" alt="logo" />
+    <img src="https://res.cloudinary.com/dtxg4xh9o/image/upload/v1739116829/logo.png_ajzrgx.png" alt="logo" />
     <ul>
         <li>Home</li>
         <li>Our Services</li>
