@@ -78,7 +78,6 @@ const Testimony = () => {
             start:'top 100%',
             end:' center 100%',
             scrub: 1,
-            markers:true
 
             
           }
