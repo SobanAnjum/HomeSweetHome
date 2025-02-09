@@ -53,3 +53,28 @@
 .footerLinks li:hover{
     color: #ffba00;
 }
+.locationPin{
+    color:#ffba00
+}
+.contacts {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.contacts li p{
+    font-size: 13px;
+    margin-left: 10px;
+}
+.contacts li{
+    margin: 0;
+    margin-top: 15px;
+    margin-left: 30px;
+    display: flex;
+}
+@media screen and (max-width:500px){
+    .contacts li p{
+        font-size: 8px;
+        margin-left: 10px;
+    }
+
+}

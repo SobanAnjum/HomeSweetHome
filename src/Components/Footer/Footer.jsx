@@ -1,4 +1,5 @@
 import React from 'react'
+import { FaLocationPin ,FaPhone, FaEnvelope } from 'react-icons/fa6'
 import './Footer.css'
 
 const Footer = () => {
@@ -30,6 +31,13 @@ return (
 </div>
 <div className="LocationSection tabSec">
     <h2>Meet Us</h2>
+    <ul className='contacts'>
+    <li  >< FaLocationPin className='locationPin'/> <p>B604 Prime Business Center<br/>
+AL barsha South 4<br/>
+Dubai, UAE</p> </li>
+<li  >< FaEnvelope className='locationPin'/> <p>Info@wefixuaehome.com</p> </li>
+<li  >< FaPhone className='locationPin'/> <p>04 (514) 9753</p> </li>
+</ul>
 
 </div>
         </div>
