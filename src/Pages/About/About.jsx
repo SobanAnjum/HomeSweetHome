@@ -33,7 +33,7 @@ const About = () => {
             <h1> <span className='we'>Verified </span> <br /><span className='provide'>Professionals</span></h1>
             <h1> <span className='we'>COMPLETED OVER</span> <br /><span className='provide'>200+ Projects</span></h1>
             <h1> <span className='we'>BEST HANDYMAN</span> <br /><span className='provide'>SERVICES</span></h1>
-            <h1> <span className='we'>WE</span> <br /><span className='provide'>HAVE</span></h1>
+            <h1> <span className='we'>AT</span> <br /><span className='provide'>HOME SWEET HOME</span> <br />WE HAVE</h1>
 
             </div>
         </div>
