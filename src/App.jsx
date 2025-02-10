@@ -4,6 +4,7 @@ import Home from './Pages/Home/Home'
 import Services from './Pages/Services/Services'
 import Testimony from './Pages/Testimony/Testimony'
 import Footer from './Components/Footer/Footer'
+import About from './Pages/About/About'
 
 
 function App() {
@@ -12,7 +13,7 @@ function App() {
     <>
     <div className="con">
       <Home/>
-      <Services/>
+      <About/>
       <Testimony/>
       <Footer/>
     </div>
