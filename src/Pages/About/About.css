@@ -15,6 +15,7 @@
     position: sticky;
     width: 900vw;
     top: 50vh;
+    transform: translate(0);
     overflow: hidden;
 
 }

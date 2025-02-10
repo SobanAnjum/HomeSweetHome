@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React, { useEffect, useState } from 'react'
 import gsap from 'gsap'
 import { useGSAP } from '@gsap/react';
 import './Nav.css'
@@ -7,8 +7,8 @@ import Dropdown from '../Dropdown/Dropdown';
 
 
 
-
 const Nav = () => {
+  
 
   useGSAP(() => {
     gsap.from('.nav', {
@@ -20,18 +20,20 @@ const Nav = () => {
     });
   }, []);
 
+
+
 return (
     <>
     <div className="nav">
     <Dropdown/>
     <img src="https://res.cloudinary.com/dtxg4xh9o/image/upload/v1739116829/logo.png_ajzrgx.png" alt="logo" />
-    <ul>
+    <ul className='navList'>
         <li>Home</li>
         <li>Our Services</li>
         <li>Contact</li>
         <li>About</li>
     </ul>
-    <div className="button">Get Quote</div>
+    <div  className="button">Get Quote</div>
     </div>
     
     </>

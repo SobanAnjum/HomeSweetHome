@@ -47,6 +47,7 @@ body {
     font-weight: 900;
     font-style: normal;
     font-size: 15vw;
+    z-index: -2;
 }
 .subText{
     position: relative;
@@ -59,6 +60,7 @@ body {
     font-weight: 900;
     font-style: normal;
     font-size: 8.2vw;
+    z-index: -2;
 }
 .cover{
     z-index: -4;
