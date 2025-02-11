@@ -54,10 +54,8 @@ const About = () => {
                     </div>
                     <div className="aImg">
                     <img src="https://res.cloudinary.com/dtxg4xh9o/image/upload/v1739264591/pngwing.com_5_y14qw1.png" alt="" />
-
                     </div>
                     </div>   
-
             </div>
         <div className="topHeading">
             <div className="texts">
