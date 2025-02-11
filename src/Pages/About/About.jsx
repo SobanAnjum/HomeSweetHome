@@ -26,7 +26,6 @@ const About = () => {
                 trigger:'.AboutBody',
                 scrub:1,
                 start:"top 0%",
-                markers:true,
             }
         })
 
