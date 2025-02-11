@@ -78,7 +78,7 @@ span{
     width: 30vw;
     position: absolute;
     right: 60px;
-    bottom: 30vh;
+    bottom: 20vh;
 }
 
 @media screen and (max-width:1000px) {

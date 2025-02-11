@@ -19,18 +19,43 @@
     overflow: hidden;
 
 }
+.aboutImages{
+    position: sticky;
+    width: 900vw;
+    top: 20vh;
+    transform: translate(0);
+    overflow: hidden;
+}
+.aImages{
+        display: flex;
+        overflow: hidden;
+        justify-content: space-between;
+    
+    }
+    .aImages img{
+        height: 250px;
+    }
+
 .texts{
     display: flex;
     justify-content: space-between;
     overflow: hidden;
 
 }
-.texts h1{
+/* .texts h1{
     margin-left: 100vw;
-}
+} */
 .provide{
     color: #ffba00;
 
+}
+.aImg{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+.itemGroup{
+    width: 100vw;
 }
 @media screen and (min-width:700px){
     .topHeading{

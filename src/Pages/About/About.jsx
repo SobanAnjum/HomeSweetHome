@@ -20,11 +20,45 @@ const About = () => {
             xPercent:-100,
 
         })
+        gsap.to('.aboutImages',{
+            xPercent:-100,
+            scrollTrigger:{
+                trigger:'.AboutBody',
+                scrub:1,
+                start:"top 0%",
+                markers:true,
+            }
+        })
 
 
     },[])
   return (
     <div className='AboutBody'>
+            <div className="aboutImages">
+                <div className="aImages">
+                    <div className="aImg">
+                    <img src="https://res.cloudinary.com/dtxg4xh9o/image/upload/v1739116829/logo.png_ajzrgx.png" alt="" />
+
+                    </div>
+                    <div className="aImg">
+                    <img src="https://res.cloudinary.com/dtxg4xh9o/image/upload/v1739264592/pngwing.com_2_adipou.png" alt="" />
+
+                    </div>
+                    <div className="aImg">
+                    <img src="https://res.cloudinary.com/dtxg4xh9o/image/upload/v1739264591/pngwing.com_3_mvtdaa.png" alt="" />
+
+                    </div>
+                    <div className="aImg">
+                    <img src="https://res.cloudinary.com/dtxg4xh9o/image/upload/v1739264591/pngwing.com_4_wqwf2q.png" alt="" />
+
+                    </div>
+                    <div className="aImg">
+                    <img src="https://res.cloudinary.com/dtxg4xh9o/image/upload/v1739264591/pngwing.com_5_y14qw1.png" alt="" />
+
+                    </div>
+                    </div>   
+
+            </div>
         <div className="topHeading">
             <div className="texts">
                 <div className="itemGroup">
