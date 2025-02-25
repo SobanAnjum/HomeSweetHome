@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import gsap from 'gsap'
 import { useGSAP } from '@gsap/react';
 import './Nav.css'
+import { Link } from 'react-router';
 import Dropdown from '../Dropdown/Dropdown';
 
 
@@ -28,10 +29,10 @@ return (
     <Dropdown/>
     <img src="https://res.cloudinary.com/dtxg4xh9o/image/upload/v1739116829/logo.png_ajzrgx.png" alt="logo" />
     <ul className='navList'>
-        <li>Home</li>
-        <li>Our Services</li>
-        <li>Contact</li>
-        <li>About</li>
+        <li> <Link className='navLink' to="/">Home</Link></li>
+        <li> <Link className='navLink' to="/Services">Our Services</Link></li>
+        <li> <Link className='navLink' to="/Contact">Contact</Link></li>
+        <li> <Link className='navLink' to="/About">About</Link></li>
     </ul>
     <div  className="button">Get Quote</div>
     </div>

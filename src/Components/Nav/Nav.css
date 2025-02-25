@@ -42,6 +42,11 @@ li:hover{
     font-size: 1.08 rem;
 }
 
+.navLink{
+    color: white;
+    text-decoration: none;
+}
+
 @media screen and (max-width: 858px) {
     li{
         margin: 1rem;

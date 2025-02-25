@@ -40,6 +40,10 @@
 .dropDownEntry:hover{
     color: #ffba00;
 }
+.navLinkD{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
 
 @media screen and (min-width: 536px){
     .container{

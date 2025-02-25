@@ -30,7 +30,6 @@ const Testimony = () => {
             start:'center 100%',
             end:' bottom 200%',
             scrub: 1,
-
             
           }
 
