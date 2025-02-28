@@ -68,8 +68,8 @@ We at Home Sweet Home have a team of professionals for every task, such as plumb
                     <ul>
                         <li>Flooring & Tiling Services</li>
                         <li>Home Carpentry Services</li>
-                        <li>Curtain& Blind Removal & Installation</li>
-                        <li>Marble polish, Repair & Restoration</li>
+                        <li>Curtain& Blind Removal, Installation</li>
+                        <li>Marble polish, Repair, Restoration</li>
 
                     </ul>
 
