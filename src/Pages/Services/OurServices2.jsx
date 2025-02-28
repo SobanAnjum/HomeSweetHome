@@ -26,9 +26,7 @@ return (
                 <h1>AC REPAIR</h1>
                 <p>Are you looking for the installation service of a new AC that makes the whole process easy, comfortable, and reliable? Look no more because Home Sweet Home will be your best AC Installation technician and engineering service provider in Dubai.
 
-Domestic, Commercial, and Industrial Air Conditioning systems act as the “Lungs” of the building and need to be maintained not only for cooling but more importantly for cleanliness. Over time, contaminants such as building debris, dust, hair, animal dander, fibers from clothing and carpets, pollen, tobacco residues, and many more accumulate inside the ducts and on the cooling coils resulting in the growth of bio-film, mold, and bacteria that is well documented as a major cause of respiratory illnesses and triggering Asthma attacks.
-
-Home Sweet Home team cleans the complete air duct system to the American standard ACR 2013. This standard produced by NADCA (National Air Duct Cleaners Association) is used worldwide to ensure systems are professionally cleaned.</p>
+Home Sweet Home team cleans the complete air duct system to the American standard ACR 2013. This standard produced by NADCA is used worldwide to ensure systems are professionally cleaned.</p>
             </div>
         </div>
         <div className="ServiceCard Card4">
@@ -53,7 +51,7 @@ At Home Sweet Home Technical Services, our exterior house painting experts are h
         <div className="blackOverlay"></div>   
             <div className="CardMainText">
                 <h1>MAINTAINANCE</h1>
-                <p>A home is a personal place and spot for relaxation. After a hectic day, every person wants to go home and relax. It is a place of catharsis for someone, and for others, it’s a chilling area. So it’s a dream of every homeowner to make this place according to their vision and ideas that allow them to spend me-time.
+                <p>A home is a personal place and spot for relaxation. After a hectic day, every person wants to go home and relax.
 
 A well-organized kitchen, updated and luxurious drawing rooms and lounges, neat and well-managed washrooms, lavish personal rooms, and managed laundry make life easy. To equip your house with all these facilities, there is a need to hire professional services. If you are in Dubai then Home Sweet Home Services is at your doorstep to solve all your problems.
 
@@ -65,13 +63,14 @@ We at Home Sweet Home have a team of professionals for every task, such as plumb
             <div className="CardMainText">
                 <h1>AND MORE</h1>
                 <p>Looking for repairs or installation services that are out of the ordinary and don’t know where to look? Among other things we can help with the following:
-                    <ul>
-                        <li>Flooring & Tiling Services</li>
-                        <li>Home Carpentry Services</li>
-                        <li>Curtain& Blind Removal, Installation</li>
-                        <li>Marble polish, Repair, Restoration</li>
+                        <br />
+                        <h6><br />Flooring & Tiling Services,Marble polish,</h6>
+                        <br />
+                        <h6>Home Carpentry Services,Repair,Restoration</h6>
+                        <br />
+                        <h6>Curtain& Blind Removal, Installation</h6>
 
-                    </ul>
+
 
 </p>
             </div>
