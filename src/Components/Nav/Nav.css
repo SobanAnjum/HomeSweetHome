@@ -6,6 +6,9 @@
     width: 100%;
     align-items: center;
     justify-content: space-around;
+    position: absolute;
+    top: 0;
+    z-index: 40;
 }
 .nav img{
 

@@ -46,7 +46,7 @@ body {
     font-optical-sizing: auto;
     font-weight: 900;
     font-style: normal;
-    font-size: 15vw;
+    font-size: 12vw;
     z-index: -2;
 }
 .subText{
@@ -84,15 +84,15 @@ span{
 @media screen and (max-width:1000px) {
     .mainText{
         position: absolute;
-        top: 300px;
+        top: 250px;
         left: 60px;
-        font-size:22vw;
+        font-size:17vw;
 
 
     }
     .subText{
         position: absolute;
-        top: 500px;
+        top: 400px;
         left: 60px;
         width:80vw ;
         font-size: 13vw;
@@ -102,5 +102,48 @@ span{
 display: none;
     }
     
+    
+}
+@media screen and (max-width:483px) {
+    .mainText{
+        position: absolute;
+        top: 200px;
+        left: 60px;
+        font-size:14vw;
+
+
+    }
+    .subText{
+        position: absolute;
+        top: 300px;
+        left: 60px;
+        width:80vw ;
+        font-size: 10vw;
+
+    }
+    
+}
+@media screen and (max-width:431px) {
+    .mainText{
+        position: absolute;
+        top: 600px;
+        left: 60px;
+        font-size:16vw;
+
+
+    }
+    .subText{
+        position: absolute;
+        top: 700px;
+        left: 60px;
+        width:80vw ;
+        font-size: 10vw;
+
+    }
+    .heroLogo{
+        display: block;
+        width: 70vw;
+        top: 150px;
+            }
     
 }

@@ -55,7 +55,7 @@ const Home = () => {
       <div className="background">
         <img className="img" src="https://res.cloudinary.com/dtxg4xh9o/image/upload/v1739117435/background_org61k.jpg" alt="Background" />
       </div>
-      <h1 className="mainText"> <span>A</span><span>L</span><span>W</span><span>A</span><span>Y</span><span>S</span></h1>
+      <h1 className="mainText"> <span>H</span><span>A</span><span>N</span><span>D</span><span>Y</span><span>MEN</span></h1>
       <h1 className="subText">Ready to Serve</h1>
       <img src="https://res.cloudinary.com/dtxg4xh9o/image/upload/v1739116829/logo.png_ajzrgx.png" alt="" className="heroLogo" />
     </div>
