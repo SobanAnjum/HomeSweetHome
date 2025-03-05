@@ -1,0 +1,54 @@
+.ContactHead{
+    color: #ffffff;
+    font-family: "Roboto Condensed", serif;
+    text-align: center;
+    padding-top: 150px;
+    font-size: 5rem;
+    font-weight: 700;
+    text-shadow: 2px 2px 15px  rgba(31, 31, 31, 0.414);
+
+}
+.ContactHero{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    top: 0;
+    background-image: url('https://www.itl.cat/pngfile/big/157-1572191_hd-wallpapers-for-website-background-cool-background-image.jpg');
+    background-size: cover;
+}
+.ContactSub{
+        color: white;
+        font-family: "Roboto Condensed", serif;
+        text-align: center;
+        padding-top: 20px;
+        font-size: 1.3rem;
+        font-weight: 200;
+    
+    
+}
+.map{
+    height: 80vh;
+    width: 100vw;
+    position: relative;
+}
+.map iframe{
+    width: 100vw;
+    height: 60vh;
+    position: absolute;
+    bottom: 0;
+}
+.map h1{
+    color: white;
+    font-family: "Roboto Condensed", serif;
+    font-weight: 700;
+    font-size: 5rem;
+    margin-top: 50px;
+    text-align: center;
+}
+.map h2{
+    color: white;
+    font-family: "Roboto Condensed", serif;
+    font-weight: 600;
+    font-size: 1rem;
+    text-align: center;
+}

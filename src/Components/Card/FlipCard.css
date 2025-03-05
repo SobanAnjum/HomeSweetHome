@@ -1,0 +1,6 @@
+.cardContainer{
+    position: relative;
+}
+.theCard{
+    position: absolute;
+}
