@@ -4,12 +4,15 @@ import { useGSAP } from '@gsap/react';
 import './Nav.css'
 import { Link } from 'react-router';
 import Dropdown from '../Dropdown/Dropdown';
+import { useLocation } from 'react-router';
 
 
 
 
 const Nav = () => {
-  
+  var location = useLocation()
+if(location.pathname==='/'){
+
 
   useGSAP(() => {
     gsap.from('.nav', {
@@ -21,7 +24,7 @@ const Nav = () => {
     });
   }, []);
 
-
+}
 
 return (
     <>
