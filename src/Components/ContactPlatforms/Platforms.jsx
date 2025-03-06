@@ -2,6 +2,18 @@ import React from 'react'
 import './Platforms.css'
 import { FaWhatsapp, FaEnvelope, FaPhone } from 'react-icons/fa6'
 
+const handleWAClick=()=>{
+    
+window.open('https://api.whatsapp.com/send?phone=971506968006')
+
+}
+const handleEMClick=()=>{
+    window.location.href = 'mailto:info@wefixuaehome.com';
+}
+const handlePhoneClick=()=>{
+    window.location.href = 'tel:045149753';
+}
+
 const Platforms = () => {
 return (
     <div>
@@ -10,7 +22,7 @@ return (
             <FaWhatsapp className='icon WAicon'/>
             <h1>Whatsapp</h1>
             <div className="DividerLine"></div>
-            <div className="contactButton WAButton">
+            <div onClick={handleWAClick} className="contactButton WAButton">
             <h3>Contact</h3>
             </div>
 
@@ -19,7 +31,7 @@ return (
             <FaEnvelope className='icon EMicon'/>
             <h1>Email</h1>
             <div className="DividerLine"></div>
-            <div className="contactButton EMButton">
+            <div onClick={handleEMClick} className="contactButton EMButton">
             <h3>Contact</h3>
             </div>
 
@@ -28,7 +40,7 @@ return (
             <FaPhone className='icon Picon'/>
             <h1>Phone</h1>
             <div className="DividerLine"></div>
-            <div className="contactButton PButton">
+            <div onClick={handlePhoneClick} className="contactButton PButton">
                 <h3>Contact</h3>
             </div>
         </div>

@@ -63,8 +63,23 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: all 0.2s ease-in-out;
 }
 .contactButton h3{
     color: white;
     font-family:"Roboto Condensed", serif;
+}
+@media screen and (max-width:768px) {
+    .icon{
+        font-size: 2rem;
+    }
+    .PBox{
+        height: 200px;
+        width: 150px;
+    }
+
+}
+.contactButton:hover{
+    cursor: pointer;
+    scale: 1.1;
 }

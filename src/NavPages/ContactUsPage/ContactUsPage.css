@@ -52,3 +52,32 @@
     font-size: 1rem;
     text-align: center;
 }
+
+@media screen and (max-width:768px) {
+    .ContactHead{
+        font-size: 3rem;
+    }
+    .ContactSub{
+        font-size: 1rem;
+    }
+    .map{
+        height: 60vh;
+    }
+    .map iframe{
+        width: 100vw;
+        height: 40vh;
+        position: absolute;
+        bottom: 0;
+    }
+    .map h1{
+
+        font-size: 3rem;
+        margin-top: 50px;
+        text-align: center;
+    }
+    .map h2{
+
+        font-size: 1rem;
+        text-align: center;
+    }
+}

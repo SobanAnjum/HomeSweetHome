@@ -3,7 +3,26 @@ import './ContactUsPage.css'
 import Nav from '../../Components/Nav/Nav'
 import Platforms from '../../Components/ContactPlatforms/Platforms'
 import Footer from '../../Components/Footer/Footer'
+import gsap from 'gsap'
+import { useGSAP } from '@gsap/react'
+
+
 const ContactUsPage = () => {
+
+    useGSAP(()=>{
+        gsap.from('.ContactHead',{
+            opacity:0,
+            xPercent:100,
+            ease:'bounce.in'
+        })
+        gsap.from('.ContactSub',{
+            opacity:0,
+            y:100,
+
+        })
+        
+    },[])
+
 return (
     <div>
             <Nav/>
