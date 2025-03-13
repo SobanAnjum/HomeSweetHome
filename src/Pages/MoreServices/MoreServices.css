@@ -59,6 +59,7 @@ margin-bottom: 50px;
 .SCHeading{
     margin: 0;
     position: absolute;
+    font-size: 1.5rem;
     z-index: 2;
 }
 .SCText{

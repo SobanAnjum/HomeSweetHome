@@ -1,9 +1,13 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './MoreServices.css'
 import Nav from '../../Components/Nav/Nav'
 import Footer from '../../Components/Footer/Footer'
 
 const MoreServices = () => {
+
+    useEffect(()=>{
+        window.scrollTo(0,0)
+    },[])
 return (
     <>
     <Nav/>
