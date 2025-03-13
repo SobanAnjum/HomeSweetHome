@@ -92,7 +92,7 @@
 }
 @media screen and (max-width:850px) {
     .AboutDescription p{
-        font-size: 0.8rem;
+        font-size: 0.7rem;
         font-weight: 300;
     }
     .AboutDescription h1{
@@ -102,8 +102,8 @@
 }
 @media screen and (max-width:500px) {
     .AUHead{
-        font-size: 1rem;
-        font-weight: 200;
+        font-size: 1.4rem;
+        font-weight: 600;
     }
 
     
