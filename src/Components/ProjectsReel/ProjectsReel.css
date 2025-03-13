@@ -1,0 +1,15 @@
+.Reel1{
+    display: flex;
+    transform: translateX(-4000px);
+}
+.reelimg{
+    height: 200px;
+    margin: 5px;
+    transition: all 0.2s ease-in;
+}
+.reelimg:hover{
+    transform: scale(1.03);
+}
+.Reel2{
+    display: flex;
+}

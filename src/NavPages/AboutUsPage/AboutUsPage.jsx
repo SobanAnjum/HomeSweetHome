@@ -4,6 +4,7 @@ import Nav from '../../Components/Nav/Nav'
 import Footer from '../../Components/Footer/Footer'
 import { IoClipboardOutline, IoTimeOutline, IoConstructOutline, IoStarSharp } from 'react-icons/io5'
 import IconComp from '../../Components/IconComp/IconComp'
+import ProjectsReel from '../../Components/ProjectsReel/ProjectsReel'
 
 const AboutUsPage = () => {
 return (
@@ -12,7 +13,7 @@ return (
         <div className="AboutUsBody">
             <div className="Head">
 
-            <h1 className='AUHead' >ABOUT OUR ORGANIZATION</h1>
+            <h1 className='AUHead' >ABOUT US</h1>
             <div className='AboutDescription'>
                 <h1>Welcome to WEFIXUAEHOME.COM</h1>
                 <p>Your trusted partner for all home maintenance and repair needs across the UAE. We are a team of skilled professionals dedicated to delivering high-quality and reliable services, ensuring your home remains in top condition, no matter the issue.
@@ -43,8 +44,10 @@ At WeFixUAEHome, we understand the importance of a comfortable and safe living s
             </div>
         </div>
         <div className="OurProjects">
-            <h1></h1>
+            <h1 className='OPHead'>Some of our recent Projects</h1>
+            <ProjectsReel/>
         </div>
+        
         <Footer/>
 
     

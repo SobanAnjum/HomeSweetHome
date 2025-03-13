@@ -12,12 +12,13 @@
 
 }
 .AUHead{
-    color: #ffffff;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(255, 255, 255);
+    font-family:Arial, Helvetica, sans-serif;
     text-align: center;
-    font-size: 2.5rem;
+    font-size: 5.5rem;
     margin-top: 150px;
     margin-bottom: 50px;
+    text-shadow: 5px 5px 10px rgb(25, 25, 25);
 
 }
 .AboutDescription{
@@ -61,16 +62,26 @@
     margin-top: 30px;
     flex-wrap: wrap;
 }
-
+.OPHead{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: "Roboto Condensed", serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-size: 2.5rem;
+    color: #ffba00;
+    text-align: center;
+    margin: 50px;
+}
 @media screen and (max-width:900px) {
     .AUHead{
-        font-size: 2rem;
+        font-size: 5rem;
     }
     .Head{
         height: 50vh;
     }
     
 }
+
 @media screen and (max-width:400px) {
 
 
@@ -85,6 +96,7 @@
         
     
 }
+
 @media screen and (max-width:1200px) {
     .AboutDescription p{
         font-size: 1rem;
@@ -102,9 +114,13 @@
 }
 @media screen and (max-width:500px) {
     .AUHead{
-        font-size: 1.4rem;
-        font-weight: 600;
+        font-size: 3.4rem;
+        font-weight: 800;
     }
-
+}
+@media screen and (min-width:900px) {
+    .OPHead{
+        font-size: 5rem;
+    }
     
 }
