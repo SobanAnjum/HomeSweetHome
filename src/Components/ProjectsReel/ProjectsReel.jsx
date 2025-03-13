@@ -50,14 +50,14 @@ const reel2=[
 const ProjectsReel = () => {
 useGSAP(()=>{
     gsap.to('.Reel1',{
-        x:'4000',
-        duration:200,
+        x:'0',
+        duration:100,
         repeat:1
     })
 
     gsap.to('.Reel2',{
         x:'-4000',
-        duration:180,
+        duration:100,
         repeat:1
     })
 
