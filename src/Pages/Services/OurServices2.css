@@ -71,7 +71,27 @@ font-size: 4rem;
         width: 80vw;
         color: rgb(255, 255, 255);
     }
+    .moreServicesBtn{
+        width: 100px;
+        height: 40px;
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        border-radius: 30px;
+        margin-top: 30px;
 
+    }
+    .moreServicesBtn Link{
+        text-decoration: none;
+    }
+    .moreServicesBtn h6{
+        color: black;
+        text-decoration: none;
+        list-style: none;
+
+    }
     @media screen and (max-width:700px) {
         .CardMainText h1{
             font-size: 2.2rem;

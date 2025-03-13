@@ -76,7 +76,7 @@ const About = () => {
                 </div>
                 <div className="itemGroup">
                     {/* <img className='hshLogo' src="https://res.cloudinary.com/dtxg4xh9o/image/upload/v1739116829/logo.png_ajzrgx.png" width='100px' alt="" /> */}
-            <h1> <span className='we'>AT</span> <br /><span className='provide'>HOME SWEET HOME</span> <br />WE HAVE</h1>
+            <h1> <span className='we'>HOME SWEET HOME</span> <br /><span className='provide'>TECHNICAL SERVICES</span> <br />PROVIDES</h1>
 
                 </div>
 

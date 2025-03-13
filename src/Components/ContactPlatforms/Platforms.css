@@ -49,6 +49,18 @@
 .PButton{
     background-color: rgb(0, 102, 255);
 }
+.FBicon{
+    color: navy;
+}
+.FBButton{
+    background-color: navy;
+}
+.IGicon{
+    color: rgb(161, 0, 179);
+}
+.IGButton{
+    background-color: rgb(161, 0, 179);
+}
 .DividerLine{
     width: 90%;
     height: 2px;
@@ -86,7 +98,7 @@
 @media screen and (max-width:485px) {
     .platformContainer{
         flex-direction: column;
-        height: 100vh;
+        height: 130vh;
        align-items: center;
     }
     .PBox{

@@ -7,6 +7,7 @@ import Home from './Pages/Home/Home.jsx'
 import AboutUsPage from './NavPages/AboutUsPage/AboutUsPage.jsx'
 import ContactUsPage from './NavPages/ContactUsPage/ContactUsPage.jsx'
 import OurServices from './NavPages/OurServices/OurServices.jsx'
+import MoreServices from './Pages/MoreServices/MoreServices.jsx'
 
 createRoot(document.getElementById('root')).render(
     <BrowserRouter>
@@ -15,8 +16,7 @@ createRoot(document.getElementById('root')).render(
       <Route path='/About' element={<AboutUsPage/>}/>
       <Route path='/Contact' element={<ContactUsPage/>}/>
       <Route path='/Services' element={<OurServices/>}/>
-      
-
+      <Route path='/Services/more' element={<MoreServices/>}/>
     </Routes>
     </BrowserRouter>
 )

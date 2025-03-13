@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router'
 import '../Services/OurServices2.css'
 
 const OurServices2 = () => {
@@ -69,6 +70,11 @@ We at Home Sweet Home have a team of professionals for every task, such as plumb
                         <h6>Home Carpentry Services,Repair,Restoration</h6>
                         <br />
                         <h6>Curtain& Blind Removal, Installation</h6>
+                            <Link to={'/Services/more'}>
+                        <div className="moreServicesBtn">
+                            <h6>See Here</h6>
+                        </div>
+                            </Link>
 
 
 

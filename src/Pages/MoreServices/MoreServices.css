@@ -1,0 +1,131 @@
+.moreServicesBody{
+    width: 100vw;
+margin-bottom: 40px;
+}
+.MSHeading{
+    margin-top: 150px;
+}
+.MSsub{
+margin-bottom: 50px;
+}
+.moreServicesBody h1{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    text-align: center;
+}
+.moreServicesBody h5{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #ffba00;
+    text-align: center;
+}
+.MoreServiceSection{
+    padding: 20px;
+    width: 100vw;
+    height: 30vw;
+
+}
+.SectionContainer{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.SCoverlay{
+    background-color: rgba(0, 0, 0, 0.749);
+    width: 100%;
+    position: absolute;
+    height: 100%;
+    z-index: 1;
+    border-radius: 30px;
+}
+.SCLeft{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border-radius: 30px;
+
+}
+.SCRight{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border-radius: 30px;
+}
+.SCHeading{
+    margin: 0;
+    position: absolute;
+    z-index: 2;
+}
+.SCText{
+    padding: 20px;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 0.85rem;
+}
+
+@media screen and (max-width:550px) {
+    .moreServicesBody h1{
+        font-size: 1.3rem;
+    }
+}
+@media screen and (max-width:700px) {
+    .MoreServiceSection{
+        padding: 20px;
+        width: 100vw;
+        height: 100vw;
+        text-align: justify;
+    
+    }
+
+}
+
+@media screen and (min-width:1000px){
+    .SCText{
+        font-size: 1.5rem;
+    }
+    
+}
+.SS1 .SCLeft{
+    background-image: url('https://res.cloudinary.com/dtxg4xh9o/image/upload/t_Banner 16:9/v1741883182/0205090001-1-Tiling-Work-Installation-shutterstock_196421168_lv6owg.jpg');
+    background-size: cover;
+}
+.SS2 .SCRight{
+    background-image: url('https://res.cloudinary.com/dtxg4xh9o/image/upload/t_Banner 16:9/v1741883183/Depositphotos_207274982_l-2015-1024x682-landscape-1cae64cc572dc89f45767a286027047c-601cdb3faee63_yhkrtp.jpg');
+    background-size: cover;
+}
+.SS3 .SCLeft{
+    background-image: url('https://res.cloudinary.com/dtxg4xh9o/image/upload/t_Banner 16:9/v1741883182/Method-Statement-for-Suspended-Ceiling-Installation2_vakind.jpg');
+    background-size: cover;
+}
+.SS4 .SCRight{
+    background-image: url('https://res.cloudinary.com/dtxg4xh9o/image/upload/t_Banner 16:9/v1740587792/CarpenterCard_fsaytv.jpg');
+    background-size: cover;
+}
+.SS5 .SCLeft{
+    background-image: url('https://res.cloudinary.com/dtxg4xh9o/image/upload/t_Banner 16:9/v1741883183/4-reasons-why-you-should-keep-a-tab-on-your-electrical-fittings-1627650824_piy3ca.jpg');
+    background-size: cover;
+}
+.SS6 .SCRight{
+    background-image: url('https://res.cloudinary.com/dtxg4xh9o/image/upload/t_Banner 16:9/v1741883183/electromechanical_koev9l.jpg');
+    background-size: cover;
+}
+.SS7 .SCLeft{
+    background-image: url('https://res.cloudinary.com/dtxg4xh9o/image/upload/t_Banner 16:9/v1741883183/electromechanical_koev9l.jpg');
+    background-size: cover;
+}
+.SS8 .SCRight{
+    background-image: url('https://res.cloudinary.com/dtxg4xh9o/image/upload/t_Banner 16:9/v1741883183/cleaners-24185_dlcb3m.jpg');
+    background-size: cover;
+}
+.SS9 .SCLeft{
+    background-image: url('https://res.cloudinary.com/dtxg4xh9o/image/upload/t_Banner 16:9/v1741883182/shutterstock_505745176-1038x706-1-1024x696_wpxq2k.jpg');
+    background-size: cover;
+}
+
+
+
