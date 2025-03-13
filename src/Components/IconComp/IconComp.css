@@ -1,0 +1,57 @@
+.CompContent h1{
+    font-size: 1.5rem;
+    transition: all 0.1s ease-in-out;
+}
+.CompContent p{
+    font-size: 1rem;
+    font-weight: 300;
+    padding: 10px;
+    color: rgb(211, 211, 211);
+    transition: all 0.1s ease-in-out;
+    text-align: justify;
+}
+.CompContainer{
+    width: 200px;
+    height: 350px;
+
+
+
+}
+.CompIcon{
+    width: 70px;
+    height: 70px;
+    margin: 0 auto;
+    background-color: rgb(12, 20, 35);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(30%);
+    transition: all 0.1s ease-in-out;
+}
+.CompContent{
+    width: 100%;
+    height: 270px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: royalblue;
+    border-radius: 5%;
+    transition: all 0.1s ease-in-out;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.485);
+
+}
+
+.CompContainer:hover .CompIcon{
+    background-color: white;
+    color: black;
+    transform: scale(1.1);
+    transform: translateY(-30%);
+}
+.CompContainer:hover .CompContent{
+    background-color: rgb(211, 211, 211);
+    color: black;
+}
+.CompContainer:hover .CompContent p{
+    color: black;
+}
