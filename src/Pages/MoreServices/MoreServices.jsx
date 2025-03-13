@@ -18,7 +18,7 @@ return (
                 </div>
                 <div className="SCRight">
                     <p className='SCText'>
-                    Transform your space with our expert floor and wall tiling services. Whether you're looking for a sleek modern look or a timeless classic design, our skilled team delivers flawless installations with precision and care. We use only the highest-quality materials to ensure your tiling lasts and enhances your home or business for years to come. Let us bring your vision to life with beautiful, durable tiles that will elevate any room.
+                    Transform your space with our expert floor and wall tiling services. Whether you're looking for a sleek modern look or a timeless classic design, our skilled team delivers flawless installations with precision and care. We use only the highest-quality materials to ensure your tiling lasts and enhances your home or business for years to come.
                     </p>
                 </div>
             </div>
